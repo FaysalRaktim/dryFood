@@ -1,0 +1,327 @@
+
+/*		Tablet Layout: 768px.	*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .header_top ul li a, .header_top a {
+        font-size: 12px;
+    }
+
+    .header_top h6 {
+        display: none;
+    }
+
+    .header_top .header_social_icon a i {
+        padding: 0px 9px;
+    }
+
+    .header_middle .header_logo img {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .header_middle ul li a {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    
+    .header_middle ul li {
+        padding: 11px 6px 14px;
+    }
+
+    .header_middle form {
+        padding-top: 0px;
+    }
+
+    /* Banner Style Start Here */
+
+
+    /* Banner Style Ends Here */
+
+    /* Prodct Style Start Here */
+
+    .product_list .col-md-12 > span, .choose_food .col-md-12 > span, .latest_news span {
+        left: 43.5%;
+    }
+
+    .product_box .product_img {
+        height: 270px;
+    }
+
+    .product_box .product_img img {
+        height: 100%;
+    }
+
+    .product_box .product_content p {
+        padding: 0px 15px;
+    }
+
+    .product_list, .choose_food {
+        padding: 30px 0px;
+    }
+
+     /* Product Style Ends Here */
+
+    /* Choose Food Style Start Here */
+
+    .choose_food .col-md-2 {
+        display: none;
+    }
+
+    .choose_food .card {
+        width: 28%;
+    }
+
+    /* Choose Food Style Ends Here */
+
+    /* Latest News Style Start Here */
+
+    .latest_news .card .card-body {
+        padding: 10px;
+    }
+
+    .latest_news .card .card-body h5 {
+        font-size: 21px;
+        line-height: 23px;
+    }
+
+    .latest_news .card .card-body p {
+        font-size: 13px;
+        line-height: 18px;
+        margin-bottom: 0px;
+    }
+
+    .latest_news .card .card-body a {
+        padding: 8px 20px;
+        font-size: 13px;
+
+    }
+
+    /* Latest News Style Ends Here */
+
+    /* Get In Touch Style Start Here */
+
+    .get_in_touch {
+        padding: 30px 0px;
+    }
+
+    /* Get In Touch Style Ends Here */
+
+    /* Footer Style Start Here */
+
+    .footer .input-group {
+        padding: 0px 37px 30px;
+    }
+
+    .footer .input-group input {
+        max-width: 505px;
+    }
+
+    .footer h4 {
+        font-size: 15px;
+        line-height: 15px;
+        text-align: center;
+    }
+
+    .footer ul li a {
+        padding: 5px 11px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .footer h5 {
+        padding: 8px 0px;
+        font-size: 13px;
+        line-height: 16px;
+        color: #ffffff
+    }
+
+    /* Footer Style Ends Here */
+
+}
+
+
+/*		Mobile Layout: 375px.    */
+
+@media only screen and (max-width: 767px) {
+
+    .header_top ul li a, .header_top a {
+        width: 100%;
+        margin: 5px 0px;
+        text-align: left;
+    }
+
+    .header_top a i {
+        padding-left: 13px;
+    }
+
+    .header_top h6 {
+        display: none;
+    }
+
+    .header_middle .header_logo {
+        text-align: center;
+    }
+
+    .banner_text h2 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .banner_text a {
+        padding: 13px 60px;
+        font-size: 17px;
+        line-height: 22px;
+    }
+
+    .product_list .col-md-12 > h2, .choose_food .col-md-12 > h2 {
+        font-size: 30px;
+        line-height: 34px;
+        margin-bottom: 10px;
+    }
+
+    .product_list .col-md-12 > span, .choose_food .col-md-12 > span, .latest_news span {
+        left: 36.5%;
+    }
+
+    .product_box .product_content p {
+        padding: 0px 7px;
+    }
+
+    .product_box .product_content > a {
+        font-size: 13px;
+    }
+
+    .product_list {
+        padding: 35px 0px 0px;
+    }
+
+    .choose_food .card {
+        width: 100%;
+        margin: 30px 12px 0px;
+    }
+
+    .choose_food {
+        padding: 35px 0px;
+    }
+
+    .about_food_content {
+        padding: 100px 0px;
+    }
+
+    .about_food_content h2 {
+        font-size: 30px;
+        line-height: 46px;
+    }
+
+    .about_food_content span {
+        width: 20%;
+    }
+
+    .about_food_content p {
+        padding: 25px 10px;
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .latest_news h2 {
+        font-size: 33px;
+        line-height: 33px;
+        margin-bottom: 15px;
+    }
+
+    .latest_news .card {
+        margin: 30px 5px 0px;
+    }
+
+    .latest_news .card .card-body {
+        padding: 20px 5px 0px 5px;
+    }
+
+    .latest_news .card .card-body h5 {
+        font-size: 23px;
+        line-height: 28px;
+        margin-bottom: 8px;
+    }
+
+    .latest_news .card .card-body p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 8px;
+    }
+
+    .latest_news .card .card-body a {
+        padding: 8px 20px;
+        font-size: 13px;
+        margin-bottom: 25px;
+    }
+
+    .testimonial_box {
+        padding: 20px 16px;
+        margin: 13px 14px;
+    }
+
+    .testimonial_box .testimonial_img {
+        max-width: 150px;
+        margin-bottom: 15px;
+    }
+
+    .testimonial_box .testimonial_info {
+        top: 23px;
+        left: 55%;
+    }
+
+    .testimonial_box .testimonial_info > span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .testimonial_box .testimonial_info h3 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .testimonial_box .testimonial_info h5 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .testimonial .owl-nav {
+        left: 38%;
+    }
+
+    .get_in_touch {
+        padding: 25px 0px;
+    }
+
+    .footer {
+        padding: 35px 0px 0px;
+    }
+
+    .footer .input-group {
+        padding: 0px 0px 25px;
+    }
+
+    .footer .input-group input {
+        padding: 12px 20px;
+        max-width: 260px;
+    }
+
+    .footer .input-group a {
+        padding: 12px 15px;
+        font-size: 11px;
+        line-height: 17px;
+    }
+
+    .footer p {
+        padding: 0px 52px;
+        text-align: justify;
+    }
+
+    .footer h5 {
+        padding: 12px 0px;
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+}
